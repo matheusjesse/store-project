@@ -1,13 +1,11 @@
-import styled from 'styled-components';
-
-const StyledApp = styled.div`
-  // Your style here
-`;
+import { Route, Routes } from 'react-router-dom';
+import Home from 'src/pages/home';
 
 export function App() {
   return (
-    <StyledApp>
-    </StyledApp>
+    <Routes>
+        <Route path="/" element={<Home />}></Route>
+    </Routes>
   );
 }
 
