@@ -6,7 +6,7 @@ export function Home() {
         <>
             <Header />
             <HomeContainer>
-                <h1>Home</h1>
+                <h1>O melhor lugar para fazer as suas comprars!</h1>
             </HomeContainer>
         </>
     )
