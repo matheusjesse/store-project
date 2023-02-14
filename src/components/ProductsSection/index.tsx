@@ -29,7 +29,7 @@ export function ProductsSection() {
                 products && products.map(({title, price, image}) => (
                     <ProductCard 
                         titleCard={title}
-                        priceCard={price}
+                        priceCard={price.toFixed(2)}
                         imageCard={image}
                     />       
                 ))
