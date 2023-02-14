@@ -10,3 +10,9 @@ export interface IProduct {
       count: number
     }
   }
+
+
+  export type ProductContextType = {
+    products: IProduct[];
+    productsSave: (product: IProduct[]) => void;
+  };

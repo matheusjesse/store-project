@@ -1,11 +1,11 @@
 import ProductCardContainer from "./style";
 
-export function ProductCard() {
+export function ProductCard({titleCard, imageCard, priceCard}: {titleCard: string, imageCard:string, priceCard:number}) {
     return(
         <ProductCardContainer>
-            <h1 className="title-item">Title</h1>
-            <p className="image-item">Image</p>
-            <p className="price-item">R$ 20,00</p>
+            <h1 className="title-item">{titleCard}</h1>
+            <img className="image-item" src={imageCard} alt={titleCard} />
+            <p className="price-item">{priceCard}</p>
         </ ProductCardContainer>
     )
 }
