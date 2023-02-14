@@ -25,7 +25,6 @@ export function ProductsSection() {
 
     return(
         <ProductSectionContainer>
-            <p>Test</p>
             {
                 products && products.map(({title, price, image}) => (
                     <ProductCard 
