@@ -26,8 +26,9 @@ const CategoryCardContainer = styled.div`
     }
 
     h1 {
-        color: black;
+        color: #111111;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
     }
 `
 export default CategoryCardContainer;
