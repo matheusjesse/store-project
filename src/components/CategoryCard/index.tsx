@@ -4,7 +4,9 @@ export function CategoryCard({categoryImage, categoryName}: {categoryImage: stri
 
     return(
         <CategoryCardContainer>
-            <img src={categoryImage} alt={categoryName} />
+            <div className="image-container">
+                <img src={categoryImage} alt={categoryName} />
+            </div>
             <h1>{categoryName}</h1>
         </CategoryCardContainer>
     )
