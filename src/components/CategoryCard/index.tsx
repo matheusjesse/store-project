@@ -1,11 +1,11 @@
 import CategoryCardContainer from "./style";
 
-export function CategoryCard() {    
+export function CategoryCard({categoryImage, categoryName}: {categoryImage: string, categoryName: string}) {    
 
     return(
         <CategoryCardContainer>
-            <img src="" alt=""></img>
-            <h1></h1>
+            <img src={categoryImage} alt={categoryName} />
+            <h1>{categoryName}</h1>
         </CategoryCardContainer>
     )
 }
